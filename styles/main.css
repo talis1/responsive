@@ -1,0 +1,313 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  text-align: center;
+  background-color: brown;
+  width: 1408px;
+}
+article{
+  background-color: black;
+  width: 1408px;
+  height: 90px;
+}
+img{
+  width: 200px;
+  height: 90px;
+  left: 550px;
+  position: relative;
+}
+.nav ul li{
+  display: inline-block;
+}
+a{
+  padding: 20px 30px 30px 30px;
+  display: inline-block;
+  color: #F08080;
+  font-family: 'Merienda', cursive;
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav li a:after{
+position: absolute;
+content: '';
+bottom: 0px;
+left: 0px;
+right: 0px;
+border-bottom: solid 2px black;
+transition: all .2s linear;
+}
+nav li a:hover{
+  box-sizing: border-box;
+  color: white;
+}
+
+section>img{
+  width: 1408px;
+  top: 0px;
+  height: 500px;
+  left: 0px;
+  position: relative;
+}
+section>h3{
+  position: absolute;
+  top: 380px;
+  left: 450px;
+  font-family: 'Lobster', cursive;
+  color: 	white;
+  font-size: 50px;
+}
+div{
+  width: 1408px;
+  height: 400px;
+  background-color: white;
+  top: 670px;
+  position: absolute;
+}
+div>.pais{
+  width: 469px;
+  height: 400px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+div>.granos{
+  width: 469px;
+  height:  400px;
+  top: 0px;
+  left: 469px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+div>.secadora{
+  width: 469px;
+  height:  400px;
+  top: 0px;
+  left:938px;
+  right: 0px;
+  position: absolute;
+}
+div:nth-child(1)>img{
+  width: 200px;
+  height: 200px;
+  left: 123px;
+  right: 123px;
+  top:0px;
+
+}
+div:nth-child(2)>img{
+  width: 200px;
+  height: 200px;
+  left: 123px;
+  right: 123px;
+  top:0px;
+
+}
+div:nth-child(3)>img{
+  width: 200px;
+  height: 200px;
+  left: 123px;
+  right: 123px;
+  top:0px;
+
+}
+div>div>h2{
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+div>div>h2{
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+div>div>div>h2{
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+div>div>div>div>h2{
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+ .cafe{
+     width: 1408px;
+     position: relative;
+     top: 400px;
+     height: 80vh;
+     margin: auto;
+     overflow: hidden;
+   }
+  .cafe .cafe1{
+     animation: cambio 20s infinite;
+     position:absolute;
+     top: 0px;
+     left: 0;
+     height: 100%;
+     width: 400vw;
+   }
+   .cafe img{
+     width: 100vw;
+     height: 100%;
+     object-fit: cover;
+     position: absolute;
+   }
+   .cafe img:nth-child(1){
+     left: 0;
+   }
+   .cafe img:nth-child(2){
+     left: 100vw;
+   }
+   .cafe img:nth-child(3){
+     left: 200vw;
+   }
+   .cafe img:nth-child(4){
+     left: 300vw;
+   }
+   .cafe img:nth-child(5){
+     left: 400vw;
+   }
+   @keyframes cambio {
+     0%{transform: translateX(0);}
+     20%{transform: translateX(0);}
+
+     25%{transform: translateX(-100vw);}
+     35%{transform: translateX(-100vw);}
+
+     50%{transform: translateX(-200vw);}
+     65%{transform: translateX(-200vw);}
+
+     75%{transform: translateX(-300vw);}
+     80%{transform: translateX(-300vw);}
+
+     90%{transform: translateX(-400vw);}
+     100%{transform: translateX(-400vw);}
+   }
+footer{
+  width: 1408px;
+  position: relative;
+  top: 400px;
+  height: 300px;
+   background-color: brown;
+}
+footer>img:nth-child(1){
+   width: 50px;
+   top: 40px;
+   left: 200px;
+   height: 50px;
+   position: absolute;
+ }
+ footer>img:nth-child(2){
+   width: 50px;
+   top: 40px;
+   left: 400px;
+   height: 50px;
+   position: absolute;
+ }
+ footer>img:nth-child(3){
+   width: 50px;
+   top: 40px;
+   left: 600px;
+   height: 50px;
+   position: absolute;
+ }
+ footer>img:nth-child(4){
+   width: 50px;
+   top: 40px;
+   left: 800px;
+   height: 50px;
+   position: absolute;
+ }
+ footer>img:nth-child(5){
+   width: 50px;
+   top: 40px;
+   left: 1000px;
+   height: 50px;
+   position: absolute;
+ }
+footer>h4{
+  position: absolute;
+  top: 220px;
+  left:500px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+footer>h5{
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+
+
+footer>{
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+.a{
+  position: absolute;
+  top: 100px;
+  height: 0px;
+  left: 200px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: 	black;
+  font-size: 17px;
+}
+     .b{
+       position: absolute;
+       top: 100px;
+       left: 400px;
+      height: 0px;
+       font-family: 'Ubuntu Condensed', sans-serif;
+       color: 	black;
+       font-size: 17px;
+     }
+     .c{
+       position: absolute;
+       top: 100px;
+       height: 0px;
+       left: 600px;
+       font-family: 'Ubuntu Condensed', sans-serif;
+       color: 	black;
+       font-size: 17px;
+     }
+     .d{
+       position: absolute;
+       top: 100px;
+       height: 0px;
+       left: 800px;
+       font-family: 'Ubuntu Condensed', sans-serif;
+       color: 	black;
+       font-size: 17px;
+     }
+     .e{
+       position: absolute;
+       top: 100px;
+       left: 1000px;
+       height: 0px;
+       font-family: 'Ubuntu Condensed', sans-serif;
+       color: 	black;
+       font-size: 17px;
+     }
